@@ -60,6 +60,7 @@ header nav ul li {
 .hero-info img {
     margin: 3rem 0;
 }
+
 /*hero style end */
 @media screen and (min-width:725px) {
     body {
@@ -91,5 +92,11 @@ header nav ul li {
     }
     #hero-image {
         width: 500px;
+    }
+    .hero-info-block {
+        display: block;
+    }
+    #hero-buttons {
+        justify-content: flex-start;
     }
 }
